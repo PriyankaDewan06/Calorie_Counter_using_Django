@@ -59,3 +59,38 @@ BMR = 655.1 + (9.563 × weight in kg) + (1.850 × height in cm) − (4.676 × ag
  ```bash
  git clone https://github.com/yourusername/calorie-counter.git
  cd calorie-counter
+2. ** Create and activate virtual environment**
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+3. **Install dependencies**
+pip install django
+4. **Create Django project**
+django-admin startproject Name_ID_CaloryCounter
+cd Name_ID_CaloryCounter
+5. **Run migrations**
+python manage.py makemigrations
+python manage.py migrate
+6. **Create superuser**
+python manage.py createsuperuser
+# username: admin
+# password: 1234
+7. **Run server**
+python manage.py runserver
+📊 Models Overview
+
+User Profile → Name, Age, Gender, Height, Weight
+
+CaloriesConsumed → Item name, Calories
+📷 Dashboard (Example)
+
+Shows:
+
+Required calories for the day (BMR calculation)
+
+Total consumed calories
+
+Remaining calories
+👩‍💻 Author
+
+Developed as part of Web Application Development with Python (Level-4) coursework.
