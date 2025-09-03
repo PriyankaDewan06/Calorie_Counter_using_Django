@@ -77,12 +77,14 @@ python manage.py createsuperuser
 # password: 1234
 7. **Run server**
 python manage.py runserver
-📊 Models Overview
+---
+
+## 📊 Models Overview
 
 User Profile → Name, Age, Gender, Height, Weight
 
 CaloriesConsumed → Item name, Calories
-📷 Dashboard (Example)
+##📷 Dashboard (Example)
 
 Shows:
 
@@ -91,6 +93,6 @@ Required calories for the day (BMR calculation)
 Total consumed calories
 
 Remaining calories
-👩‍💻 Author
+##👩‍💻 Author
 
 Developed as part of Web Application Development with Python (Level-4) coursework.
