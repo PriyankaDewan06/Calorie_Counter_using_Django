@@ -56,10 +56,10 @@ BMR = 655.1 + (9.563 × weight in kg) + (1.850 × height in cm) − (4.676 × ag
 ## ⚡ Installation & Setup
 
 1. **Clone the repository**
- ```bash
+bash
  git clone https://github.com/yourusername/calorie-counter.git
  cd calorie-counter
-2. ** Create and activate virtual environment**
+2. **Create and activate virtual environment**
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
@@ -80,12 +80,12 @@ python manage.py runserver
 
 ---
 
-## 🔢 Calorie Calculation Formula
+## 📊 Models Overview
 
 User Profile → Name, Age, Gender, Height, Weight
 
 CaloriesConsumed → Item name, Calories
-##📷 Dashboard (Example)
+## Dashboard (Example)
 
 Shows:
 
@@ -94,6 +94,6 @@ Required calories for the day (BMR calculation)
 Total consumed calories
 
 Remaining calories
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Developed as part of Web Application Development with Python (Level-4) coursework.
