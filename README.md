@@ -73,8 +73,8 @@ python manage.py makemigrations
 python manage.py migrate
 6. **Create superuser**
 python manage.py createsuperuser
-# username: admin
-# password: 1234
+username: admin
+password: 1234
 7. **Run server**
 python manage.py runserver
 
