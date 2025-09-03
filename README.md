@@ -77,9 +77,10 @@ python manage.py createsuperuser
 # password: 1234
 7. **Run server**
 python manage.py runserver
+
 ---
 
-## 📊 Models Overview
+## 🔢 Calorie Calculation Formula
 
 User Profile → Name, Age, Gender, Height, Weight
 
